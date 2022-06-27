@@ -16,6 +16,6 @@ public class BarTest {
     @Test
     @DisplayName("실패하는 테스트")
     void bar() {
-        assertThat(true).isTrue();
+        assertThat(false).isTrue();
     }
 }
