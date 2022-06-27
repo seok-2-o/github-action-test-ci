@@ -14,8 +14,14 @@ public class BarTest {
     }
 
     @Test
-    @DisplayName("실패하는 테스트")
+    @DisplayName("실패하는 테스트1")
     void bar() {
+        assertThat(false).isTrue();
+    }
+
+    @Test
+    @DisplayName("실패하는 테스트2")
+    void bar2() {
         assertThat(false).isTrue();
     }
 }
